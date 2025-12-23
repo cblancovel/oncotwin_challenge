@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ONCOTWIN · Synthetic Oncology Data Challenge</title>
+  <meta name="description" content="ONCOTWIN · Synthetic Oncology Data Challenge. Competición de un día para impulsar la oncología con datos sintéticos." />
+  <meta name="theme-color" content="#0b1020" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top">
+      <img src="assets/logo_oncotwin.png" alt="ONCOTWIN" class="brand__logo" />
+      <span class="brand__name">ONCOTWIN</span>
+    </a>
+
+    <nav class="nav" aria-label="Navegación">
+      <a href="#about">Qué es</a>
+      <a href="#tracks">Retos</a>
+      <a href="#program">Programa</a>
+      <a href="#projects">Proyectos</a>
+      <a href="#collaborators">Colaboradores</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+
+    <div class="topbar__actions">
+      <a class="btn btn--ghost" href="#collaborate">Colabora</a>
+      <a class="btn btn--primary" data-cta href="#register">Inscribirme</a>
+      <button class="hamburger" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div id="mobileMenu" class="mobileMenu" hidden>
+    <a href="#about">Qué es</a>
+    <a href="#tracks">Retos</a>
+    <a href="#program">Programa</a>
+    <a href="#projects">Proyectos</a>
+    <a href="#collaborators">Colaboradores</a>
+    <a href="#faq">FAQ</a>
+    <a class="btn btn--primary" data-cta href="#register">Inscribirme</a>
+    <a class="btn btn--ghost" href="#collaborate">Colabora</a>
+  </div>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__bg">
+        <div class="orb orb--1"></div>
+        <div class="orb orb--2"></div>
+        <div class="grid"></div>
+      </div>
+
+      <div class="container hero__content">
+        <div class="hero__left">
+          <div class="pill" id="heroPill">Competición de 1 día · Oncología · Datos sintéticos</div>
+
+          <h1 class="hero__title">
+            <span class="gradientText" id="heroTitle">ONCOTWIN</span>
+            <span class="hero__subtitle" id="heroSubtitle">Synthetic Oncology Data Challenge</span>
+          </h1>
+
+          <p class="hero__lead" id="heroLead">
+            Un reto intensivo para crear soluciones reproducibles con datasets sintéticos y acelerar proyectos en oncología.
+          </p>
+
+          <div class="hero__meta" id="heroMeta">
+            <div class="metaCard">
+              <div class="metaCard__k">Fecha</div>
+              <div class="metaCard__v" id="eventDate">Por anunciar</div>
+            </div>
+            <div class="metaCard">
+              <div class="metaCard__k">Lugar</div>
+              <div class="metaCard__v" id="eventLocation">Madrid · Híbrido</div>
+            </div>
+            <div class="metaCard">
+              <div class="metaCard__k">Equipos</div>
+              <div class="metaCard__v" id="eventTeams">Multidisciplinares</div>
+            </div>
+          </div>
+
+          <div class="hero__cta">
+            <a class="btn btn--primary btn--big" data-cta href="#register">Quiero participar</a>
+            <a class="btn btn--ghost btn--big" href="#about">Ver detalles</a>
+          </div>
+
+          <div class="hero__badges" id="heroBadges">
+            <!-- badges via JS -->
+          </div>
+        </div>
+
+        <div class="hero__right">
+          <div class="heroCard">
+            <div class="heroCard__top">
+              <img src="assets/logo_oncotwin.png" alt="ONCOTWIN Logo" class="heroCard__logo" />
+              <div class="heroCard__tag" id="heroTag">Edición piloto</div>
+            </div>
+
+            <div class="heroCard__body">
+              <h3 class="heroCard__title">Qué entregamos</h3>
+              <ul class="checklist" id="deliverablesList">
+                <!-- via JS -->
+              </ul>
+            </div>
+
+            <div class="heroCard__bottom">
+              <div class="stat">
+                <div class="stat__n" id="stat1n">3</div>
+                <div class="stat__l" id="stat1l">retos</div>
+              </div>
+              <div class="stat">
+                <div class="stat__n" id="stat2n">8h</div>
+                <div class="stat__l" id="stat2l">intensivas</div>
+              </div>
+              <div class="stat">
+                <div class="stat__n" id="stat3n">100%</div>
+                <div class="stat__l" id="stat3l">reproducible</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="miniStrip" id="miniStrip">
+            <!-- via JS -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="sectionHead">
+          <h2 class="sectionTitle">Qué es ONCOTWIN</h2>
+          <p class="sectionLead" id="aboutLead">
+            Una jornada para convertir datos sintéticos en prototipos útiles: métricas, evaluación y un resultado que se pueda reutilizar.
+          </p>
+        </div>
+
+        <div class="grid3" id="aboutCards">
+          <!-- via JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- TRACKS -->
+    <section id="tracks" class="section section--alt">
+      <div class="container">
+        <div class="sectionHead">
+          <h2 class="sectionTitle">Retos del día</h2>
+          <p class="sectionLead">Seleccionamos retos aterrizados, con un dataset sintético y objetivos claros.</p>
+        </div>
+
+        <div class="grid3" id="tracksGrid">
+          <!-- via JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- PROGRAM -->
+    <section id="program" class="section">
+      <div class="container">
+        <div class="sectionHead">
+          <h2 class="sectionTitle">Programa</h2>
+          <p class="sectionLead">Formato compacto, con tiempos y entregables definidos.</p>
+        </div>
+
+        <div class="timeline" id="programTimeline">
+          <!-- via JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section section--alt">
+      <div class="container">
+        <div class="sectionHead sectionHead--row">
+          <div>
+            <h2 class="sectionTitle">Proyectos</h2>
+            <p class="sectionLead">Aquí podremos ir metiendo resultados, repos, demos y winners.</p>
+          </div>
+          <div class="filters">
+            <button class="chip chip--active" data-filter="all">Todos</button>
+            <button class="chip" data-filter="baseline">Baseline</button>
+            <button class="chip" data-filter="model">Modelos</button>
+            <button class="chip" data-filter="evaluation">Evaluación</button>
+            <button class="chip" data-filter="app">Apps</button>
+          </div>
+        </div>
+
+        <div class="grid3" id="projectsGrid">
+          <!-- via JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- COLLABORATORS -->
+    <section id="collaborators" class="section">
+      <div class="container">
+        <div class="sectionHead">
+          <h2 class="sectionTitle">Colaboradores</h2>
+          <p class="sectionLead">Añadimos logos, roles y enlaces cuando los tengamos.</p>
+        </div>
+
+        <div class="logoGrid" id="collaboratorsGrid">
+          <!-- via JS -->
+        </div>
+
+        <div id="collaborate" class="callout">
+          <div class="callout__left">
+            <h3>¿Quieres colaborar?</h3>
+            <p id="collaborateText">Patrocinio, mentores, datasets sintéticos, premios o infraestructura.</p>
+          </div>
+          <div class="callout__right">
+            <a class="btn btn--primary" id="collaborateCta" href="mailto:contacto@tudominio.com?subject=Colaborar%20con%20ONCOTWIN">Escríbenos</a>
+            <a class="btn btn--ghost" href="#register">Participar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- REGISTER -->
+    <section id="register" class="section section--alt">
+      <div class="container">
+        <div class="sectionHead">
+          <h2 class="sectionTitle">Inscripción</h2>
+          <p class="sectionLead">Dejamos esto listo para conectar a Typeform/Google Forms/Notion cuando quieras.</p>
+        </div>
+
+        <div class="registerCard">
+          <div class="registerCard__info">
+            <h3 id="registerTitle">Únete al reto</h3>
+            <p id="registerText">Equipo o individual. Nosotros hacemos matching para que haya mezcla clínica + data + producto.</p>
+            <div class="registerCard__bullets" id="registerBullets"></div>
+          </div>
+          <div class="registerCard__cta">
+            <a class="btn btn--primary btn--big" id="registerCta" href="#" target="_blank" rel="noopener">Abrir formulario</a>
+            <p class="tiny" id="registerNote">Si aún no hay formulario, deja el link vacío en content.json y esto se desactiva.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section">
+      <div class="container">
+        <div class="sectionHead">
+          <h2 class="sectionTitle">FAQ</h2>
+          <p class="sectionLead">Lo típico que nos van a preguntar, respondido de forma clara.</p>
+        </div>
+
+        <div class="faq" id="faqList">
+          <!-- via JS -->
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__brand">
+          <img src="assets/logo_oncotwin.png" alt="ONCOTWIN" class="footer__logo" />
+          <div>
+            <div class="footer__name">ONCOTWIN</div>
+            <div class="footer__sub">Synthetic Oncology Data Challenge</div>
+          </div>
+        </div>
+
+        <div class="footer__links">
+          <a href="#about">Qué es</a>
+          <a href="#program">Programa</a>
+          <a href="#collaborators">Colaboradores</a>
+          <a href="#register">Inscripción</a>
+        </div>
+
+        <div class="footer__meta">
+          <span id="footerLine">© <span id="year"></span> ONCOTWIN</span>
+          <span class="dot">·</span>
+          <a id="footerEmail" href="mailto:contacto@tudominio.com">contacto@tudominio.com</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
