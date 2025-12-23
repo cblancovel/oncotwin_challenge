@@ -1,0 +1,122 @@
+{
+  "hero": {
+    "pill": "Competición de 1 día · Oncología · Datos sintéticos",
+    "title": "ONCOTWIN",
+    "subtitle": "Synthetic Oncology Data Challenge",
+    "lead": "Un reto intensivo para crear soluciones reproducibles con datasets sintéticos y acelerar proyectos en oncología.",
+    "tag": "Edición piloto",
+    "badges": ["Datos sintéticos", "Reto práctico", "Evaluación reproducible", "Multidisciplinar"],
+    "deliverables": [
+      "Dataset sintético listo para usar + data dictionary",
+      "Baseline reproducible (notebook o script) y métricas",
+      "Prototipo por equipo (código + short report) y demo final"
+    ],
+    "stats": [
+      { "n": "3", "l": "retos" },
+      { "n": "8h", "l": "intensivas" },
+      { "n": "100%", "l": "reproducible" }
+    ],
+    "mini": [
+      { "k": "Formato", "v": "1 día, hands-on" },
+      { "k": "Stack", "v": "Python · notebooks" },
+      { "k": "Output", "v": "repo + demo" }
+    ]
+  },
+  "event": {
+    "date": "Por anunciar",
+    "location": "Madrid · Híbrido",
+    "teams": "Equipos 3-6 personas"
+  },
+  "about": {
+    "lead": "ONCOTWIN es una jornada de competición con datos sintéticos de oncología, pensada para que al final del día tengamos outputs reutilizables y comparables.",
+    "cards": [
+      {
+        "title": "Datos sintéticos, retos reales",
+        "text": "Trabajamos con datasets sintéticos diseñados para parecerse a escenarios clínicos, sin exponer información sensible.",
+        "tags": ["privacidad", "utilidad", "realismo"]
+      },
+      {
+        "title": "Evaluación clara",
+        "text": "Métricas y criterios definidos: desempeño, calibración, reproducibilidad, y lectura clínica del resultado.",
+        "tags": ["métricas", "baseline", "benchmark"]
+      },
+      {
+        "title": "Resultados para continuar",
+        "text": "Los mejores proyectos pasan a una fase posterior: pulido, validación y posible integración en iniciativas del ecosistema.",
+        "tags": ["prototipos", "continuidad", "impacto"]
+      }
+    ]
+  },
+  "tracks": [
+    {
+      "title": "Reto 1 · Predicción clínica",
+      "text": "Construir un modelo predictivo (p. ej., riesgo, respuesta o evento) con dataset sintético y baseline común.",
+      "tags": ["modelos", "calibración", "AUC/PR", "interpretabilidad"]
+    },
+    {
+      "title": "Reto 2 · Calidad del sintético",
+      "text": "Definir y aplicar un framework de evaluación: similitud, utilidad y privacidad (con criterios comparables).",
+      "tags": ["utility", "privacy", "similarity", "reporting"]
+    },
+    {
+      "title": "Reto 3 · Producto / workflow",
+      "text": "Convertir el output en algo usable: pipeline, app ligera, o integración con un flujo clínico o de investigación.",
+      "tags": ["pipeline", "UX", "reproducible", "demo"]
+    }
+  ],
+  "program": [
+    { "time": "09:00", "title": "Kick-off", "text": "Contexto, reglas, datasets y criterios de evaluación." },
+    { "time": "10:00", "title": "Trabajo por equipos", "text": "Exploración, baseline y planificación." },
+    { "time": "13:30", "title": "Checkpoint", "text": "Revisión rápida con mentores y desbloqueo de dudas." },
+    { "time": "16:30", "title": "Cierre de entregables", "text": "Repos, notebooks y mini-informe." },
+    { "time": "17:30", "title": "Demos finales", "text": "Pitch + demo. Jurado y feedback." },
+    { "time": "18:30", "title": "Premios + next steps", "text": "Ganadores y continuidad." }
+  ],
+  "projects": [
+    {
+      "title": "Baseline oficial (template)",
+      "text": "Notebook base para estandarizar entrenamiento y reporting.",
+      "category": "baseline",
+      "tags": ["starter", "notebook"],
+      "links": [{ "label": "GitHub", "url": "https://github.com/" }]
+    },
+    {
+      "title": "Modelo calibrado + interpretación",
+      "text": "Ejemplo de proyecto: calibración, curvas y explicación orientada a clínica.",
+      "category": "model",
+      "tags": ["calibración", "SHAP", "reporting"]
+    },
+    {
+      "title": "Informe de calidad del sintético",
+      "text": "Pipeline de evaluación similarity/utility/privacy con un único reporte.",
+      "category": "evaluation",
+      "tags": ["metrics", "privacy", "utility"]
+    }
+  ],
+  "collaborators": [
+    { "name": "Tu institución", "logo": "", "url": "" },
+    { "name": "Sponsor 1", "logo": "", "url": "" },
+    { "name": "Partner 1", "logo": "", "url": "" },
+    { "name": "Mentores", "logo": "", "url": "" }
+  ],
+  "collaborate": {
+    "text": "Patrocinio, mentores, datasets sintéticos, premios o infraestructura.",
+    "ctaUrl": "mailto:contacto@tudominio.com?subject=Colaborar%20con%20ONCOTWIN"
+  },
+  "register": {
+    "title": "Únete al reto",
+    "text": "Equipo o individual. Hacemos matching para mezclar perfiles clínicos, data y producto.",
+    "bullets": ["Onsite/online", "Equipos 3-6", "Premios y continuidad"],
+    "formUrl": ""
+  },
+  "faq": [
+    { "q": "¿Necesito experiencia en oncología?", "a": "No. Lo ideal es mezclar perfiles. Con tener base de datos/ML o producto ya aportamos mucho; el reto está diseñado con contexto y mentores." },
+    { "q": "¿Qué entregamos al final?", "a": "Repositorio con código reproducible (notebook/scripts), métricas, y una demo/presentación corta con conclusiones." },
+    { "q": "¿Los datos son reales?", "a": "No. Usamos datos sintéticos para poder trabajar rápido y sin riesgo de exposición de información sensible." },
+    { "q": "¿Hay premios?", "a": "Podemos incluirlos. Dejamos el espacio listo para anunciarlo en la web cuando lo cerremos." }
+  ],
+  "footer": {
+    "email": "contacto@tudominio.com",
+    "line": "© {year} ONCOTWIN"
+  }
+}
